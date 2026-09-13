@@ -1,0 +1,36 @@
+{
+  "study_id": "REPLACE_WITH_STUDY_IDENTIFIER",
+  "seed": 42,
+  "real_data_path": "data/processed/REPLACE_WITH_TRACKED_INPUT.csv",
+  "target_column": "REPLACE_WITH_PRIMARY_TARGET",
+  "synthesis": {
+    "model_selected": "REPLACE_WITH_REQUESTED_GENERATOR",
+    "num_samples": 0,
+    "columns": [
+      {
+        "name": "REPLACE_WITH_COLUMN_NAME",
+        "column_role": "Input",
+        "column_data_type": "continuous"
+      },
+      {
+        "name": "REPLACE_WITH_TARGET_COLUMN",
+        "column_role": "Output",
+        "column_data_type": "continuous"
+      }
+    ]
+  },
+  "prediction": {
+    "columns": [
+      {
+        "name": "REPLACE_WITH_COLUMN_NAME",
+        "role": "Input",
+        "dataType": "continuous"
+      },
+      {
+        "name": "REPLACE_WITH_TARGET_COLUMN",
+        "role": "Output",
+        "dataType": "continuous"
+      }
+    ]
+  }
+}

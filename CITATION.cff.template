@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use CatFORGE, please cite the associated manuscript and this software release."
+title: "REPLACE WITH FINAL SOFTWARE TITLE"
+type: software
+authors:
+  - family-names: "REPLACE WITH AUTHOR FAMILY NAME"
+    given-names: "REPLACE WITH AUTHOR GIVEN NAME"
+version: "REPLACE WITH RELEASE TAG"
+date-released: "REPLACE WITH YYYY-MM-DD"
+repository-code: "https://github.com/REPLACE-ORGANIZATION/REPLACE-REPOSITORY"
+abstract: "REPLACE WITH A SHORT REVIEWED SOFTWARE DESCRIPTION."

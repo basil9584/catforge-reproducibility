@@ -1,0 +1,36 @@
+{
+  "study_id": "demo-catalyst",
+  "seed": 42,
+  "real_data_path": "data/demo/catalyst_demo_dataset.csv",
+  "target_column": "CH4 conversion (%)",
+  "synthesis": {
+    "model_selected": "CTGAN",
+    "num_samples": 51,
+    "columns": [
+      {"name": "M^2+ / M^3+ Mg/Al", "column_role": "Input", "column_data_type": "continuous"},
+      {"name": "Ni/Mg Ni Loading (%)", "column_role": "Input", "column_data_type": "continuous"},
+      {"name": "Reaction Temp (°C)", "column_role": "Input", "column_data_type": "continuous"},
+      {"name": "GHSV (mL/g.h)", "column_role": "Input", "column_data_type": "continuous"},
+      {"name": "Time on stream (h)", "column_role": "Input", "column_data_type": "continuous"},
+      {"name": "CH4 ratio Composition", "column_role": "Input", "column_data_type": "continuous"},
+      {"name": "CO2 ratio composition", "column_role": "Input", "column_data_type": "continuous"},
+      {"name": "CH4 conversion (%)", "column_role": "Output", "column_data_type": "continuous"},
+      {"name": "CO2 conversion (%)", "column_role": "Output", "column_data_type": "continuous"},
+      {"name": "H2/CO", "column_role": "Output", "column_data_type": "continuous"}
+    ]
+  },
+  "prediction": {
+    "columns": [
+      {"name": "M^2+ / M^3+ Mg/Al", "role": "Input", "dataType": "continuous"},
+      {"name": "Ni/Mg Ni Loading (%)", "role": "Input", "dataType": "continuous"},
+      {"name": "Reaction Temp (°C)", "role": "Input", "dataType": "continuous"},
+      {"name": "GHSV (mL/g.h)", "role": "Input", "dataType": "continuous"},
+      {"name": "Time on stream (h)", "role": "Input", "dataType": "continuous"},
+      {"name": "CH4 ratio Composition", "role": "Input", "dataType": "continuous"},
+      {"name": "CO2 ratio composition", "role": "Input", "dataType": "continuous"},
+      {"name": "CH4 conversion (%)", "role": "Output", "dataType": "continuous"},
+      {"name": "CO2 conversion (%)", "role": "Output", "dataType": "continuous"},
+      {"name": "H2/CO", "role": "Output", "dataType": "continuous"}
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+# Python and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local configuration, secrets and credentials
+.env
+.env.*
+!.env.example
+*service-account*.json
+*adminsdk*.json
+firebase*.json
+
+# Runtime outputs and unreviewed data
+artifacts/
+results/generated/
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/private/
+*.db
+*.sqlite
+*.sqlite3
+*.pkl
+*.joblib
+*.log
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
